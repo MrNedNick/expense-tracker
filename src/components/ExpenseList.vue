@@ -10,14 +10,11 @@
   </v-card>
 </template>
 
-<script>
-import { useExpensesStore } from '../stores/expenses';
+<script setup>
+import { computed } from 'vue'
+import { useExpensesStore } from '../stores/expenses'
 
-export default {
-  computed: {
-    expenses() {
-      return useExpensesStore().expenses;
-    },
-  },
-};
+const store = useExpensesStore()
+
+const expenses = computed(() => store.expenses)
 </script>
