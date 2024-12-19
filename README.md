@@ -1,35 +1,28 @@
-# expense-tracker
+# Expense Tracker SPA
 
-This template should help get you started developing with Vue 3 in Vite.
+A modern expense tracker built with Vue 3, Vuetify 3, and Pinia.
 
-## Recommended IDE Setup
+## Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Add and track expenses in real-time
+- View a breakdown of expenses with a beautiful chart
+- Fully responsive and user-friendly interface
 
-## Customize configuration
+## Technologies Used
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- Vue 3
+- Vuetify 3
+- Pinia
+- Axios
+- Chart.js
 
-## Project Setup
+## Demo
 
-```sh
-npm install
-```
+[Live Demo](#) (coming soon)
 
-### Compile and Hot-Reload for Development
+## Installation
 
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/MrNedNick/expense-tracker.git
+   ```
