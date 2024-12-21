@@ -50,7 +50,6 @@ const clearZero = () => {
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   background-color: #f9f9f9;
-
   .form-title {
     text-align: center;
     font-weight: bold;
@@ -58,18 +57,15 @@ const clearZero = () => {
     color: #333;
     margin-bottom: 10px;
   }
-
   .expense-form {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
-
   .form-input {
     font-size: 1rem;
     border-radius: 5px;
   }
-
   .submit-btn {
     align-self: center;
     font-weight: bold;
@@ -77,7 +73,6 @@ const clearZero = () => {
     font-size: 1rem;
     background-color: #42a5f5;
     color: white;
-
     &:hover {
       background-color: #1e88e5;
     }
