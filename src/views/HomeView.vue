@@ -1,8 +1,10 @@
 <template>
   <v-container>
-    <expense-form />
-    <expense-list />
-    <expense-chart />
+    <ExpenseForm />
+    <div class="d-flex justify-space-around">
+      <ExpenseList class="mr-2" />
+      <ExpenseChart />
+    </div>
   </v-container>
 </template>
 

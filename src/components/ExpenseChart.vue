@@ -59,10 +59,12 @@ watch(() => store.expenses, updateChart, { deep: true })
 <style scoped lang="scss">
 .expense-chart-card {
   max-width: 600px;
+  min-width: 600px;
   margin: 20px auto;
   border: 1px solid #ccc;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+  background-color: #f9f9f9;
   .chart-title {
     text-align: center;
     font-weight: bold;

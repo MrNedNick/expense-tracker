@@ -53,9 +53,9 @@ const clearZero = () => {
   .form-title {
     text-align: center;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #333;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
   }
   .expense-form {
     display: flex;
