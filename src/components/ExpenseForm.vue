@@ -25,7 +25,6 @@ import { useExpensesStore } from '../stores/expenses'
 const store = useExpensesStore()
 const title = ref('')
 const amount = ref(0)
-
 const addExpense = () => {
   if (title.value && amount.value > 0) {
     store.addExpense({ title: title.value, amount: amount.value })
